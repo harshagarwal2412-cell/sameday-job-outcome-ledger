@@ -7,8 +7,11 @@ argument is concrete. Re-run to regenerate.
 """
 
 import csv
+import os
 import random
 from datetime import datetime, timedelta
+
+os.makedirs("data", exist_ok=True)
 
 random.seed(24)
 

@@ -46,6 +46,11 @@ No dependencies, Python 3.9+, about 200 lines. It reads two CSVs — an AI call 
 
 ### Sample output
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="report-dark.png">
+  <img alt="Job outcome ledger report: funnel from calls answered to jobs invoiced, leakage ranked by dollars, and booked-to-billed rates by trade and by time of call" src="report.png">
+</picture>
+
 Running against the synthetic quarter (812 AI-handled calls at one mid-size multi-trade contractor):
 
 ```

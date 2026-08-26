@@ -12,6 +12,8 @@ Standard library only. Synthetic data -- see README.
 
 import csv
 import html
+import os
+import sys
 from collections import defaultdict
 
 # Public list price, Scale tier, one quarter, plus rough overage on this volume.
@@ -25,6 +27,12 @@ INCREMENTAL_ONLY_AFTER_HOURS = True
 
 
 def load(path):
+    if not os.path.exists(path):
+        sys.exit(
+            f"Can't find {path}.\n"
+            "Run this from the repository root, and if data/ is empty run:\n"
+            "    python3 make_data.py"
+        )
     with open(path, newline="") as f:
         return list(csv.DictReader(f))
 
@@ -114,7 +122,8 @@ def render(ai_calls, rows):
     funnel_rows = "".join(
         f"<tr><td>{html.escape(label)}</td><td class='n'>{n:,}</td>"
         f"<td class='n'>{n/top*100:.0f}%</td>"
-        f"<td><div class='bar' style='width:{max(n/top*100,1):.1f}%'></div></td></tr>"
+        f"<td class='barcell'><div class='bartrack'>"
+        f"<div class='bar' style='width:{max(n/top*100,1):.1f}%'></div></div></td></tr>"
         for label, n in f
     )
 
@@ -153,7 +162,9 @@ def render(ai_calls, rows):
   h2 {{ font-size:15px; text-transform:uppercase; letter-spacing:.07em;
         color:var(--mut); margin:40px 0 12px; font-weight:600; }}
   .sub {{ color:var(--mut); margin:0 0 32px; }}
-  .kpis {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:12px; }}
+  .kpis {{ display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }}
+  @media (max-width:700px) {{ .kpis {{ grid-template-columns:repeat(2,1fr); }} }}
+  @media (max-width:420px) {{ .kpis {{ grid-template-columns:1fr; }} }}
   .kpi {{ background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; }}
   .kpi .v {{ font-size:26px; font-weight:650; letter-spacing:-.02em; }}
   .kpi .l {{ color:var(--mut); font-size:12.5px; margin-top:4px; }}
@@ -165,7 +176,9 @@ def render(ai_calls, rows):
   td.n {{ text-align:right; font-variant-numeric:tabular-nums; }}
   .neg {{ color:var(--neg); }}
   .pos {{ color:var(--pos); }}
-  .bar {{ height:9px; background:var(--pos); border-radius:5px; opacity:.75; }}
+  .barcell {{ width:230px; }}
+  .bartrack {{ background:var(--line); border-radius:5px; height:9px; width:100%; }}
+  .bar {{ height:9px; background:var(--pos); border-radius:5px; opacity:.8; }}
   .note {{ margin-top:44px; padding:14px 16px; border-left:3px solid var(--line);
            color:var(--mut); font-size:13.5px; }}
 </style></head><body><div class="wrap">
