@@ -1,0 +1,444 @@
+job_id,appointment_id,scheduled_for,trade,dispatched,completed,status,leak_reason,quoted_value,invoiced_value
+JOB-5001,APPT-5001,2026-06-16T08:37,Plumbing,yes,no,cancelled,customer cancelled pre-arrival,653.85,0.0
+JOB-5002,APPT-5002,2026-05-09T14:10,Roofing,yes,yes,invoiced,,9127.88,9127.88
+JOB-5003,APPT-5003,2026-06-25T07:43,Electrical,yes,yes,invoiced,,1240.07,1240.07
+JOB-5004,APPT-5004,2026-05-09T07:50,Plumbing,no,no,cancelled,customer cancelled pre-arrival,152.34,0.0
+JOB-5005,APPT-5005,2026-05-19T06:48,Plumbing,yes,yes,invoiced,,173.97,173.97
+JOB-5006,APPT-5006,2026-05-28T18:19,Roofing,yes,yes,invoiced,,416.19,416.19
+JOB-5007,APPT-5007,2026-05-28T12:34,Roofing,yes,no,cancelled,capacity conflict - slot unavailable,509.56,0.0
+JOB-5008,APPT-5008,2026-05-24T20:04,Garage Door,yes,no,cancelled,duplicate of existing job,263.86,0.0
+JOB-5009,APPT-5009,2026-05-24T14:00,Roofing,yes,yes,invoiced,,2160.18,2160.18
+JOB-5010,APPT-5010,2026-05-15T14:50,Electrical,no,no,cancelled,wrong trade assigned,300.73,0.0
+JOB-5011,APPT-5011,2026-06-12T18:58,Plumbing,yes,yes,invoiced,,215.03,215.03
+JOB-5012,APPT-5012,2026-06-10T16:15,Electrical,no,no,cancelled,outside service area,213.69,0.0
+JOB-5013,APPT-5013,2026-06-24T05:52,Plumbing,no,no,cancelled,customer cancelled pre-arrival,161.32,0.0
+JOB-5014,APPT-5014,2026-05-18T15:30,Garage Door,yes,yes,completed_unbilled,invoice not raised,211.48,0.0
+JOB-5015,APPT-5015,2026-05-27T03:50,Garage Door,yes,yes,invoiced,,892.6,892.6
+JOB-5016,APPT-5016,2026-05-14T23:48,Garage Door,yes,yes,completed_unbilled,invoice not raised,187.92,0.0
+JOB-5017,APPT-5017,2026-05-21T02:10,Electrical,yes,yes,invoiced,,923.82,1196.05
+JOB-5018,APPT-5018,2026-06-24T20:06,Garage Door,no,no,cancelled,customer cancelled pre-arrival,1262.64,0.0
+JOB-5019,APPT-5019,2026-06-02T06:35,HVAC,yes,yes,invoiced,,756.82,756.82
+JOB-5020,APPT-5020,2026-06-06T09:33,Garage Door,yes,yes,invoiced,,248.45,248.45
+JOB-5021,APPT-5021,2026-05-14T12:38,Roofing,yes,yes,invoiced,,448.43,448.43
+JOB-5022,APPT-5022,2026-06-21T09:46,Garage Door,yes,yes,invoiced,,346.73,346.73
+JOB-5023,APPT-5023,2026-05-23T16:20,HVAC,yes,no,no_show,customer no-show,1358.68,0.0
+JOB-5024,APPT-5024,2026-06-29T15:55,Roofing,yes,yes,invoiced,,415.29,398.44
+JOB-5025,APPT-5025,2026-06-05T11:16,Garage Door,yes,no,no_show,customer no-show,121.96,0.0
+JOB-5026,APPT-5026,2026-05-29T07:36,HVAC,yes,yes,invoiced,,239.83,186.1
+JOB-5027,APPT-5027,2026-06-09T03:48,Garage Door,yes,yes,invoiced,,185.07,185.07
+JOB-5028,APPT-5028,2026-05-31T20:58,Roofing,yes,yes,invoiced,,4967.51,4967.51
+JOB-5029,APPT-5029,2026-06-29T22:42,Electrical,yes,yes,invoiced,,143.79,193.68
+JOB-5030,APPT-5030,2026-06-02T15:20,HVAC,yes,yes,invoiced,,256.35,256.35
+JOB-5031,APPT-5031,2026-06-26T17:35,Plumbing,yes,yes,invoiced,,1050.61,1050.61
+JOB-5032,APPT-5032,2026-05-17T16:16,Electrical,yes,no,cancelled,outside service area,140.02,0.0
+JOB-5033,APPT-5033,2026-05-28T15:40,Electrical,yes,yes,invoiced,,142.9,142.9
+JOB-5034,APPT-5034,2026-06-02T01:09,HVAC,yes,yes,invoiced,,199.1,199.1
+JOB-5035,APPT-5035,2026-05-12T14:25,HVAC,yes,yes,invoiced,,733.5,733.5
+JOB-5036,APPT-5036,2026-06-06T14:50,Garage Door,no,no,cancelled,customer cancelled pre-arrival,208.67,0.0
+JOB-5037,APPT-5037,2026-06-25T19:48,Electrical,no,no,cancelled,capacity conflict - slot unavailable,141.23,0.0
+JOB-5038,APPT-5038,2026-05-23T06:09,HVAC,yes,no,cancelled,capacity conflict - slot unavailable,202.06,0.0
+JOB-5039,APPT-5039,2026-05-06T22:42,Plumbing,yes,yes,invoiced,,2456.04,2456.04
+JOB-5040,APPT-5040,2026-05-06T14:37,Garage Door,no,no,cancelled,duplicate of existing job,351.01,0.0
+JOB-5041,APPT-5041,2026-05-14T07:25,Electrical,yes,no,cancelled,capacity conflict - slot unavailable,1853.51,0.0
+JOB-5042,APPT-5042,2026-06-08T18:16,Garage Door,yes,no,no_show,customer no-show,142.64,0.0
+JOB-5043,APPT-5043,2026-05-13T04:14,Garage Door,yes,yes,invoiced,,122.11,122.11
+JOB-5044,APPT-5044,2026-05-16T15:16,Garage Door,yes,yes,invoiced,,230.71,230.71
+JOB-5045,APPT-5045,2026-06-12T04:56,Roofing,no,no,cancelled,capacity conflict - slot unavailable,9019.19,0.0
+JOB-5046,APPT-5046,2026-06-03T07:08,Electrical,yes,yes,invoiced,,885.63,885.63
+JOB-5047,APPT-5047,2026-05-31T22:49,Roofing,yes,yes,invoiced,,1686.29,1686.29
+JOB-5048,APPT-5048,2026-05-22T02:27,HVAC,yes,yes,invoiced,,2216.95,2216.95
+JOB-5049,APPT-5049,2026-06-16T22:53,Electrical,no,no,cancelled,duplicate of existing job,386.45,0.0
+JOB-5050,APPT-5050,2026-06-29T04:50,Roofing,yes,yes,invoiced,,721.01,721.01
+JOB-5051,APPT-5051,2026-06-18T00:32,Roofing,yes,yes,invoiced,,425.2,425.2
+JOB-5052,APPT-5052,2026-06-05T12:46,Roofing,yes,yes,invoiced,,2203.78,1603.92
+JOB-5053,APPT-5053,2026-05-03T21:59,HVAC,yes,yes,invoiced,,220.32,220.32
+JOB-5054,APPT-5054,2026-05-05T21:29,Electrical,yes,yes,invoiced,,2540.02,2540.02
+JOB-5055,APPT-5055,2026-05-17T08:11,HVAC,yes,yes,invoiced,,700.89,700.89
+JOB-5056,APPT-5056,2026-05-14T01:50,HVAC,yes,yes,invoiced,,2324.64,2324.64
+JOB-5057,APPT-5057,2026-06-02T10:29,Electrical,yes,yes,invoiced,,165.13,165.13
+JOB-5058,APPT-5058,2026-05-08T07:49,Electrical,yes,yes,invoiced,,153.29,148.34
+JOB-5059,APPT-5059,2026-05-30T08:52,Electrical,yes,yes,invoiced,,241.36,241.36
+JOB-5060,APPT-5060,2026-05-31T08:30,Electrical,no,no,cancelled,customer cancelled pre-arrival,155.92,0.0
+JOB-5061,APPT-5061,2026-06-17T07:05,Garage Door,yes,yes,invoiced,,333.96,333.96
+JOB-5062,APPT-5062,2026-06-29T08:42,Electrical,yes,yes,invoiced,,1704.18,1704.18
+JOB-5063,APPT-5063,2026-06-22T06:38,Plumbing,yes,yes,invoiced,,877.36,868.22
+JOB-5064,APPT-5064,2026-06-18T08:01,Plumbing,no,no,cancelled,capacity conflict - slot unavailable,151.7,0.0
+JOB-5065,APPT-5065,2026-05-10T05:18,Garage Door,yes,yes,invoiced,,148.74,174.59
+JOB-5066,APPT-5066,2026-05-18T08:45,Electrical,no,no,cancelled,customer cancelled pre-arrival,140.61,0.0
+JOB-5067,APPT-5067,2026-05-09T07:05,Garage Door,no,no,cancelled,wrong trade assigned,120.51,0.0
+JOB-5068,APPT-5068,2026-05-28T11:59,HVAC,no,no,cancelled,customer cancelled pre-arrival,242.19,0.0
+JOB-5069,APPT-5069,2026-05-14T23:22,Garage Door,no,no,cancelled,capacity conflict - slot unavailable,130.54,0.0
+JOB-5070,APPT-5070,2026-05-12T10:26,HVAC,yes,yes,invoiced,,405.56,405.56
+JOB-5071,APPT-5071,2026-05-30T07:26,HVAC,yes,no,cancelled,outside service area,184.24,0.0
+JOB-5072,APPT-5072,2026-06-29T17:58,HVAC,yes,no,cancelled,capacity conflict - slot unavailable,220.8,0.0
+JOB-5073,APPT-5073,2026-06-28T04:33,Electrical,yes,yes,invoiced,,140.27,140.27
+JOB-5074,APPT-5074,2026-07-01T13:29,Plumbing,yes,yes,invoiced,,157.06,157.06
+JOB-5075,APPT-5075,2026-05-14T07:46,HVAC,yes,yes,invoiced,,232.06,232.06
+JOB-5076,APPT-5076,2026-06-07T22:53,Roofing,no,no,cancelled,wrong trade assigned,522.88,0.0
+JOB-5077,APPT-5077,2026-05-23T13:16,Electrical,yes,no,cancelled,capacity conflict - slot unavailable,1045.36,0.0
+JOB-5078,APPT-5078,2026-06-28T16:29,Garage Door,yes,yes,invoiced,,124.31,165.74
+JOB-5079,APPT-5079,2026-06-20T15:21,Roofing,yes,yes,invoiced,,1685.66,1685.66
+JOB-5080,APPT-5080,2026-06-23T13:28,Electrical,yes,yes,invoiced,,1270.43,1270.43
+JOB-5081,APPT-5081,2026-06-25T03:00,Plumbing,no,no,cancelled,wrong trade assigned,150.71,0.0
+JOB-5082,APPT-5082,2026-06-17T06:24,HVAC,yes,yes,invoiced,,447.39,447.39
+JOB-5083,APPT-5083,2026-06-09T11:19,Plumbing,yes,yes,invoiced,,166.11,208.16
+JOB-5084,APPT-5084,2026-05-30T08:25,Roofing,yes,no,no_show,customer no-show,1280.33,0.0
+JOB-5085,APPT-5085,2026-05-28T17:46,Electrical,yes,yes,invoiced,,146.17,146.17
+JOB-5086,APPT-5086,2026-06-28T05:52,HVAC,yes,yes,invoiced,,184.66,186.1
+JOB-5087,APPT-5087,2026-06-29T15:19,HVAC,no,no,cancelled,wrong trade assigned,530.9,0.0
+JOB-5088,APPT-5088,2026-06-10T10:28,Garage Door,yes,no,no_show,customer no-show,1112.18,0.0
+JOB-5089,APPT-5089,2026-05-04T17:38,HVAC,yes,yes,invoiced,,1124.42,1124.42
+JOB-5090,APPT-5090,2026-05-13T22:41,Roofing,yes,yes,invoiced,,661.2,661.2
+JOB-5091,APPT-5091,2026-05-28T04:29,Plumbing,yes,yes,invoiced,,492.45,492.45
+JOB-5092,APPT-5092,2026-05-01T19:17,HVAC,yes,yes,invoiced,,225.93,225.93
+JOB-5093,APPT-5093,2026-06-08T13:31,Roofing,yes,yes,invoiced,,1502.8,1502.8
+JOB-5094,APPT-5094,2026-05-25T16:50,Roofing,yes,yes,invoiced,,514.86,514.86
+JOB-5095,APPT-5095,2026-06-08T12:10,Garage Door,yes,no,cancelled,outside service area,1368.48,0.0
+JOB-5096,APPT-5096,2026-05-20T15:34,Garage Door,no,no,cancelled,customer cancelled pre-arrival,790.43,0.0
+JOB-5097,APPT-5097,2026-06-04T22:08,Garage Door,no,no,cancelled,capacity conflict - slot unavailable,122.63,0.0
+JOB-5098,APPT-5098,2026-06-22T13:14,Garage Door,yes,yes,invoiced,,713.83,904.44
+JOB-5099,APPT-5099,2026-05-14T18:36,Electrical,no,no,cancelled,capacity conflict - slot unavailable,140.04,0.0
+JOB-5100,APPT-5100,2026-05-29T02:02,Plumbing,yes,yes,invoiced,,585.98,645.92
+JOB-5101,APPT-5101,2026-05-06T10:30,Garage Door,yes,yes,invoiced,,329.81,329.81
+JOB-5102,APPT-5102,2026-05-29T20:49,Garage Door,yes,yes,invoiced,,122.26,122.26
+JOB-5103,APPT-5103,2026-05-18T11:37,Electrical,yes,yes,invoiced,,144.26,144.26
+JOB-5104,APPT-5104,2026-05-10T11:31,HVAC,yes,yes,invoiced,,191.5,224.34
+JOB-5105,APPT-5105,2026-06-07T14:57,HVAC,yes,yes,invoiced,,330.15,330.15
+JOB-5106,APPT-5106,2026-05-21T03:34,Garage Door,yes,no,cancelled,capacity conflict - slot unavailable,531.09,0.0
+JOB-5107,APPT-5107,2026-06-16T14:33,Roofing,yes,yes,invoiced,,6903.31,6964.85
+JOB-5108,APPT-5108,2026-06-18T07:08,Roofing,yes,yes,invoiced,,1105.47,1105.47
+JOB-5109,APPT-5109,2026-05-15T20:56,Roofing,yes,yes,invoiced,,400.11,400.11
+JOB-5110,APPT-5110,2026-06-15T07:50,Garage Door,yes,no,cancelled,capacity conflict - slot unavailable,263.18,0.0
+JOB-5111,APPT-5111,2026-07-02T21:49,Roofing,yes,yes,completed_unbilled,invoice not raised,545.86,0.0
+JOB-5112,APPT-5112,2026-05-19T16:05,HVAC,yes,yes,invoiced,,394.82,521.08
+JOB-5113,APPT-5113,2026-06-15T02:09,HVAC,no,no,cancelled,wrong trade assigned,778.06,0.0
+JOB-5114,APPT-5114,2026-06-10T04:13,Garage Door,no,no,cancelled,customer cancelled pre-arrival,127.39,0.0
+JOB-5115,APPT-5115,2026-06-15T21:38,HVAC,no,no,cancelled,capacity conflict - slot unavailable,658.99,0.0
+JOB-5116,APPT-5116,2026-07-02T02:00,Electrical,yes,no,cancelled,customer cancelled pre-arrival,2262.27,0.0
+JOB-5117,APPT-5117,2026-05-17T19:54,Electrical,yes,yes,completed_unbilled,invoice not raised,140.01,0.0
+JOB-5118,APPT-5118,2026-06-30T17:56,Electrical,yes,yes,invoiced,,264.75,264.75
+JOB-5119,APPT-5119,2026-05-14T00:25,Electrical,yes,yes,invoiced,,2255.09,2255.09
+JOB-5120,APPT-5120,2026-05-22T18:27,Plumbing,no,no,cancelled,duplicate of existing job,207.34,0.0
+JOB-5121,APPT-5121,2026-06-29T01:25,HVAC,yes,yes,invoiced,,1095.12,1095.12
+JOB-5122,APPT-5122,2026-05-29T07:33,Roofing,yes,yes,invoiced,,488.58,621.83
+JOB-5123,APPT-5123,2026-05-16T00:11,Electrical,yes,yes,invoiced,,140.24,140.24
+JOB-5124,APPT-5124,2026-06-10T16:34,HVAC,yes,yes,invoiced,,368.7,481.74
+JOB-5125,APPT-5125,2026-05-06T17:30,Garage Door,no,no,cancelled,outside service area,177.55,0.0
+JOB-5126,APPT-5126,2026-05-29T22:46,Roofing,yes,yes,invoiced,,1725.91,1459.32
+JOB-5127,APPT-5127,2026-05-22T21:49,Plumbing,yes,yes,invoiced,,1310.6,1417.68
+JOB-5128,APPT-5128,2026-06-08T10:54,Plumbing,yes,yes,invoiced,,512.08,512.08
+JOB-5129,APPT-5129,2026-06-19T04:47,Electrical,no,no,cancelled,wrong trade assigned,140.52,0.0
+JOB-5130,APPT-5130,2026-06-29T17:51,HVAC,yes,no,cancelled,duplicate of existing job,270.43,0.0
+JOB-5131,APPT-5131,2026-06-06T10:33,Roofing,no,no,cancelled,duplicate of existing job,419.16,0.0
+JOB-5132,APPT-5132,2026-06-04T23:24,Electrical,yes,yes,invoiced,,976.13,976.13
+JOB-5133,APPT-5133,2026-05-17T14:00,Roofing,yes,no,cancelled,customer cancelled pre-arrival,6358.14,0.0
+JOB-5134,APPT-5134,2026-06-13T07:46,Plumbing,yes,yes,invoiced,,705.15,705.15
+JOB-5135,APPT-5135,2026-06-04T01:31,Plumbing,yes,yes,invoiced,,242.82,242.82
+JOB-5136,APPT-5136,2026-05-13T00:38,Roofing,yes,yes,invoiced,,7221.23,7221.23
+JOB-5137,APPT-5137,2026-06-08T21:44,Electrical,yes,yes,invoiced,,204.38,204.38
+JOB-5138,APPT-5138,2026-05-12T18:46,Roofing,yes,yes,invoiced,,446.33,446.33
+JOB-5139,APPT-5139,2026-06-06T19:44,Roofing,yes,no,cancelled,capacity conflict - slot unavailable,5237.05,0.0
+JOB-5140,APPT-5140,2026-06-29T08:05,Roofing,no,no,cancelled,duplicate of existing job,872.6,0.0
+JOB-5141,APPT-5141,2026-05-23T18:36,HVAC,no,no,cancelled,customer cancelled pre-arrival,274.13,0.0
+JOB-5142,APPT-5142,2026-05-27T22:06,Garage Door,yes,yes,invoiced,,698.73,698.73
+JOB-5143,APPT-5143,2026-05-06T03:53,HVAC,yes,yes,completed_unbilled,invoice not raised,775.05,0.0
+JOB-5144,APPT-5144,2026-05-17T12:54,Roofing,yes,yes,invoiced,,510.69,495.41
+JOB-5145,APPT-5145,2026-05-04T11:11,Plumbing,no,no,cancelled,capacity conflict - slot unavailable,401.32,0.0
+JOB-5146,APPT-5146,2026-06-26T01:41,Garage Door,yes,yes,invoiced,,239.56,239.56
+JOB-5147,APPT-5147,2026-05-27T09:23,Roofing,yes,yes,invoiced,,434.96,434.96
+JOB-5148,APPT-5148,2026-05-20T17:17,Plumbing,no,no,cancelled,outside service area,386.26,0.0
+JOB-5149,APPT-5149,2026-05-25T07:54,Roofing,yes,yes,invoiced,,2045.33,1668.31
+JOB-5150,APPT-5150,2026-05-10T03:12,Garage Door,yes,yes,invoiced,,132.32,132.32
+JOB-5151,APPT-5151,2026-06-15T13:58,Roofing,yes,no,no_show,customer no-show,485.44,0.0
+JOB-5152,APPT-5152,2026-05-30T02:36,HVAC,yes,yes,invoiced,,180.12,180.12
+JOB-5153,APPT-5153,2026-06-01T01:38,HVAC,yes,yes,invoiced,,251.35,251.35
+JOB-5154,APPT-5154,2026-05-07T05:52,Plumbing,yes,yes,invoiced,,306.88,306.88
+JOB-5155,APPT-5155,2026-06-19T09:58,Plumbing,yes,yes,invoiced,,150.28,150.28
+JOB-5156,APPT-5156,2026-05-30T18:39,Roofing,yes,yes,invoiced,,403.91,403.91
+JOB-5157,APPT-5157,2026-06-13T00:59,Roofing,no,no,cancelled,customer cancelled pre-arrival,1115.6,0.0
+JOB-5158,APPT-5158,2026-06-21T09:03,Garage Door,yes,yes,completed_unbilled,invoice not raised,137.31,0.0
+JOB-5159,APPT-5159,2026-05-30T10:44,Plumbing,no,no,cancelled,capacity conflict - slot unavailable,150.0,0.0
+JOB-5160,APPT-5160,2026-06-05T14:44,Garage Door,no,no,cancelled,wrong trade assigned,135.91,0.0
+JOB-5161,APPT-5161,2026-05-22T21:01,HVAC,yes,yes,invoiced,,190.88,190.88
+JOB-5162,APPT-5162,2026-05-21T03:55,HVAC,yes,yes,invoiced,,2495.19,2495.19
+JOB-5163,APPT-5163,2026-06-10T00:13,Plumbing,yes,yes,invoiced,,1720.94,1720.94
+JOB-5164,APPT-5164,2026-05-26T20:47,Roofing,yes,no,cancelled,customer cancelled pre-arrival,704.1,0.0
+JOB-5165,APPT-5165,2026-05-13T18:17,Electrical,yes,yes,completed_unbilled,invoice not raised,140.82,0.0
+JOB-5166,APPT-5166,2026-06-24T17:47,Electrical,yes,no,no_show,customer no-show,182.86,0.0
+JOB-5167,APPT-5167,2026-06-04T21:51,Electrical,yes,yes,invoiced,,913.52,913.52
+JOB-5168,APPT-5168,2026-05-09T11:47,Roofing,yes,yes,completed_unbilled,invoice not raised,3090.54,0.0
+JOB-5169,APPT-5169,2026-05-29T12:08,Electrical,yes,no,cancelled,capacity conflict - slot unavailable,149.39,0.0
+JOB-5170,APPT-5170,2026-05-02T19:19,HVAC,yes,yes,invoiced,,216.61,230.29
+JOB-5171,APPT-5171,2026-06-22T14:51,Garage Door,yes,no,cancelled,duplicate of existing job,256.34,0.0
+JOB-5172,APPT-5172,2026-05-19T11:18,Roofing,yes,yes,invoiced,,8545.88,8545.88
+JOB-5173,APPT-5173,2026-05-18T12:55,Garage Door,yes,yes,invoiced,,155.23,155.23
+JOB-5174,APPT-5174,2026-05-15T15:17,Roofing,yes,yes,invoiced,,433.19,433.19
+JOB-5175,APPT-5175,2026-05-31T04:43,Electrical,yes,yes,invoiced,,1150.96,1150.96
+JOB-5176,APPT-5176,2026-05-11T11:15,Electrical,no,no,cancelled,capacity conflict - slot unavailable,347.2,0.0
+JOB-5177,APPT-5177,2026-06-11T07:00,Garage Door,yes,yes,invoiced,,120.03,120.03
+JOB-5178,APPT-5178,2026-06-11T09:57,Garage Door,no,no,cancelled,capacity conflict - slot unavailable,603.17,0.0
+JOB-5179,APPT-5179,2026-05-14T11:30,Plumbing,no,no,cancelled,customer cancelled pre-arrival,153.51,0.0
+JOB-5180,APPT-5180,2026-05-18T19:30,Plumbing,yes,yes,invoiced,,1021.91,1021.91
+JOB-5181,APPT-5181,2026-06-08T05:05,Roofing,yes,yes,invoiced,,1368.22,1368.22
+JOB-5182,APPT-5182,2026-05-10T21:18,Electrical,yes,yes,invoiced,,838.04,838.04
+JOB-5183,APPT-5183,2026-06-09T00:34,Roofing,yes,yes,invoiced,,2131.24,1918.62
+JOB-5184,APPT-5184,2026-05-10T03:36,Electrical,yes,no,cancelled,outside service area,141.94,0.0
+JOB-5185,APPT-5185,2026-05-04T02:22,Plumbing,no,no,cancelled,duplicate of existing job,1245.76,0.0
+JOB-5186,APPT-5186,2026-06-03T00:46,Electrical,yes,yes,invoiced,,154.26,154.26
+JOB-5187,APPT-5187,2026-06-20T13:15,Roofing,yes,no,no_show,customer no-show,2995.86,0.0
+JOB-5188,APPT-5188,2026-06-19T11:19,Garage Door,yes,yes,invoiced,,164.67,164.67
+JOB-5189,APPT-5189,2026-05-16T12:09,Electrical,yes,yes,invoiced,,148.8,147.98
+JOB-5190,APPT-5190,2026-06-07T03:38,Garage Door,yes,yes,invoiced,,388.21,388.21
+JOB-5191,APPT-5191,2026-06-18T17:22,Electrical,yes,no,cancelled,wrong trade assigned,142.69,0.0
+JOB-5192,APPT-5192,2026-05-21T21:55,HVAC,yes,yes,invoiced,,201.79,201.79
+JOB-5193,APPT-5193,2026-05-11T22:46,HVAC,yes,yes,invoiced,,188.57,176.49
+JOB-5194,APPT-5194,2026-05-20T00:05,Roofing,no,no,cancelled,customer cancelled pre-arrival,754.25,0.0
+JOB-5195,APPT-5195,2026-06-11T20:39,Garage Door,no,no,cancelled,wrong trade assigned,167.4,0.0
+JOB-5196,APPT-5196,2026-05-20T22:38,HVAC,yes,yes,invoiced,,244.85,212.13
+JOB-5197,APPT-5197,2026-06-26T19:32,Electrical,no,no,cancelled,duplicate of existing job,226.78,0.0
+JOB-5198,APPT-5198,2026-05-22T14:03,Plumbing,yes,yes,invoiced,,248.86,248.86
+JOB-5199,APPT-5199,2026-06-03T13:03,HVAC,yes,yes,invoiced,,195.77,195.77
+JOB-5200,APPT-5200,2026-06-03T12:53,Plumbing,yes,yes,invoiced,,349.54,378.53
+JOB-5201,APPT-5201,2026-07-02T04:29,Roofing,yes,yes,invoiced,,1502.29,1375.94
+JOB-5202,APPT-5202,2026-05-24T18:18,Roofing,yes,no,cancelled,capacity conflict - slot unavailable,789.13,0.0
+JOB-5203,APPT-5203,2026-05-08T12:46,Garage Door,no,no,cancelled,outside service area,398.7,0.0
+JOB-5204,APPT-5204,2026-05-18T05:42,Plumbing,yes,yes,invoiced,,156.66,156.66
+JOB-5205,APPT-5205,2026-06-01T03:56,Roofing,yes,yes,invoiced,,1224.17,1224.17
+JOB-5206,APPT-5206,2026-06-23T18:49,Plumbing,yes,yes,invoiced,,243.23,243.23
+JOB-5207,APPT-5207,2026-06-06T10:24,Roofing,no,no,cancelled,customer cancelled pre-arrival,437.0,0.0
+JOB-5208,APPT-5208,2026-07-01T20:47,Plumbing,yes,yes,invoiced,,209.27,209.27
+JOB-5209,APPT-5209,2026-05-08T20:07,Plumbing,yes,yes,invoiced,,227.37,227.37
+JOB-5210,APPT-5210,2026-05-24T23:31,HVAC,yes,yes,invoiced,,3788.37,4098.84
+JOB-5211,APPT-5211,2026-05-20T19:50,HVAC,yes,yes,invoiced,,558.66,733.62
+JOB-5212,APPT-5212,2026-05-21T23:53,Plumbing,yes,no,no_show,customer no-show,827.26,0.0
+JOB-5213,APPT-5213,2026-06-04T05:12,Plumbing,yes,yes,invoiced,,155.22,155.22
+JOB-5214,APPT-5214,2026-05-13T12:35,Roofing,no,no,cancelled,customer cancelled pre-arrival,3603.87,0.0
+JOB-5215,APPT-5215,2026-05-28T12:20,Plumbing,yes,yes,invoiced,,226.47,226.47
+JOB-5216,APPT-5216,2026-05-05T13:38,HVAC,no,no,cancelled,outside service area,465.87,0.0
+JOB-5217,APPT-5217,2026-06-05T07:13,HVAC,yes,yes,invoiced,,180.03,180.03
+JOB-5218,APPT-5218,2026-06-14T01:51,Roofing,yes,yes,invoiced,,511.51,389.08
+JOB-5219,APPT-5219,2026-06-29T05:24,Roofing,yes,no,cancelled,outside service area,568.61,0.0
+JOB-5220,APPT-5220,2026-06-04T00:45,Electrical,yes,yes,invoiced,,180.54,180.54
+JOB-5221,APPT-5221,2026-06-11T03:12,Garage Door,yes,yes,invoiced,,138.88,138.88
+JOB-5222,APPT-5222,2026-05-14T10:59,Electrical,yes,yes,invoiced,,1792.83,1792.83
+JOB-5223,APPT-5223,2026-06-06T17:20,Electrical,yes,yes,invoiced,,188.56,188.56
+JOB-5224,APPT-5224,2026-05-31T09:13,Plumbing,yes,yes,invoiced,,153.54,199.3
+JOB-5225,APPT-5225,2026-05-05T10:08,Plumbing,yes,no,cancelled,wrong trade assigned,1140.24,0.0
+JOB-5226,APPT-5226,2026-06-24T16:10,Electrical,no,no,cancelled,wrong trade assigned,173.5,0.0
+JOB-5227,APPT-5227,2026-06-16T09:38,Electrical,yes,no,cancelled,wrong trade assigned,140.56,0.0
+JOB-5228,APPT-5228,2026-05-26T23:30,Garage Door,yes,yes,invoiced,,154.11,154.11
+JOB-5229,APPT-5229,2026-06-05T15:07,Roofing,yes,yes,invoiced,,795.67,795.67
+JOB-5230,APPT-5230,2026-06-10T16:59,Garage Door,yes,yes,invoiced,,585.12,585.12
+JOB-5231,APPT-5231,2026-05-24T02:22,HVAC,yes,no,cancelled,wrong trade assigned,954.43,0.0
+JOB-5232,APPT-5232,2026-06-15T19:40,Plumbing,no,no,cancelled,capacity conflict - slot unavailable,585.0,0.0
+JOB-5233,APPT-5233,2026-05-19T02:34,HVAC,no,no,cancelled,customer cancelled pre-arrival,233.29,0.0
+JOB-5234,APPT-5234,2026-05-18T07:52,Electrical,yes,yes,invoiced,,140.18,166.85
+JOB-5235,APPT-5235,2026-06-13T23:34,Plumbing,yes,yes,invoiced,,1122.5,1122.5
+JOB-5236,APPT-5236,2026-07-02T19:52,Garage Door,yes,yes,invoiced,,1129.68,1129.68
+JOB-5237,APPT-5237,2026-06-05T04:51,Garage Door,yes,yes,completed_unbilled,invoice not raised,120.36,0.0
+JOB-5238,APPT-5238,2026-06-08T16:53,Roofing,yes,yes,invoiced,,404.24,404.24
+JOB-5239,APPT-5239,2026-06-01T07:09,HVAC,yes,yes,invoiced,,1957.13,1704.22
+JOB-5240,APPT-5240,2026-05-08T15:43,HVAC,yes,yes,invoiced,,641.3,641.3
+JOB-5241,APPT-5241,2026-06-21T13:52,HVAC,yes,no,cancelled,customer cancelled pre-arrival,185.58,0.0
+JOB-5242,APPT-5242,2026-06-27T16:31,Roofing,yes,yes,invoiced,,407.14,486.99
+JOB-5243,APPT-5243,2026-05-22T20:36,Electrical,yes,yes,completed_unbilled,invoice not raised,230.43,0.0
+JOB-5244,APPT-5244,2026-05-03T14:51,Garage Door,yes,yes,invoiced,,126.8,105.54
+JOB-5245,APPT-5245,2026-06-04T23:10,Electrical,yes,yes,invoiced,,200.23,146.12
+JOB-5246,APPT-5246,2026-06-18T22:27,Roofing,no,no,cancelled,capacity conflict - slot unavailable,2982.17,0.0
+JOB-5247,APPT-5247,2026-06-13T18:58,Electrical,yes,yes,invoiced,,142.79,142.79
+JOB-5248,APPT-5248,2026-06-22T11:18,Plumbing,yes,yes,invoiced,,986.84,986.84
+JOB-5249,APPT-5249,2026-05-10T04:41,Plumbing,yes,no,cancelled,wrong trade assigned,2810.33,0.0
+JOB-5250,APPT-5250,2026-06-21T20:28,Roofing,yes,yes,invoiced,,905.91,905.91
+JOB-5251,APPT-5251,2026-05-14T08:51,Plumbing,yes,no,no_show,customer no-show,152.58,0.0
+JOB-5252,APPT-5252,2026-06-25T07:12,Electrical,yes,yes,invoiced,,166.22,166.22
+JOB-5253,APPT-5253,2026-06-03T14:50,Garage Door,yes,yes,invoiced,,1134.21,1134.21
+JOB-5254,APPT-5254,2026-05-29T07:16,Roofing,yes,yes,invoiced,,419.22,363.72
+JOB-5255,APPT-5255,2026-06-24T01:19,Plumbing,yes,yes,invoiced,,151.63,151.63
+JOB-5256,APPT-5256,2026-05-25T17:39,Electrical,yes,yes,invoiced,,312.19,312.19
+JOB-5257,APPT-5257,2026-06-30T00:15,Electrical,yes,no,no_show,customer no-show,157.86,0.0
+JOB-5258,APPT-5258,2026-06-11T02:42,Garage Door,yes,yes,invoiced,,307.89,343.59
+JOB-5259,APPT-5259,2026-05-07T21:09,Plumbing,yes,yes,invoiced,,155.77,155.77
+JOB-5260,APPT-5260,2026-06-20T17:40,Electrical,no,no,cancelled,capacity conflict - slot unavailable,485.85,0.0
+JOB-5261,APPT-5261,2026-05-03T16:42,Plumbing,yes,yes,invoiced,,195.46,195.46
+JOB-5262,APPT-5262,2026-06-14T20:38,Roofing,no,no,cancelled,duplicate of existing job,846.75,0.0
+JOB-5263,APPT-5263,2026-07-02T22:18,HVAC,yes,yes,invoiced,,284.6,241.62
+JOB-5264,APPT-5264,2026-06-15T05:25,Electrical,yes,yes,invoiced,,291.7,291.7
+JOB-5265,APPT-5265,2026-06-11T07:25,Roofing,yes,yes,invoiced,,2062.08,2062.08
+JOB-5266,APPT-5266,2026-05-25T22:22,Garage Door,yes,yes,invoiced,,1025.51,1058.3
+JOB-5267,APPT-5267,2026-06-26T17:58,Garage Door,yes,yes,invoiced,,514.34,545.52
+JOB-5268,APPT-5268,2026-05-31T07:53,HVAC,no,no,cancelled,capacity conflict - slot unavailable,180.25,0.0
+JOB-5269,APPT-5269,2026-06-11T18:01,Electrical,yes,yes,invoiced,,154.04,154.04
+JOB-5270,APPT-5270,2026-06-02T21:53,Roofing,yes,yes,invoiced,,406.46,406.46
+JOB-5271,APPT-5271,2026-05-22T22:59,Roofing,no,no,cancelled,capacity conflict - slot unavailable,547.84,0.0
+JOB-5272,APPT-5272,2026-06-30T04:23,Roofing,yes,yes,completed_unbilled,invoice not raised,6527.82,0.0
+JOB-5273,APPT-5273,2026-06-10T03:24,Garage Door,yes,yes,invoiced,,454.56,454.56
+JOB-5274,APPT-5274,2026-06-24T00:46,Electrical,yes,yes,invoiced,,614.52,785.67
+JOB-5275,APPT-5275,2026-06-23T02:16,Roofing,yes,yes,invoiced,,517.87,517.87
+JOB-5276,APPT-5276,2026-05-28T22:04,Electrical,yes,yes,invoiced,,707.25,707.25
+JOB-5277,APPT-5277,2026-05-04T05:05,HVAC,yes,yes,invoiced,,344.06,248.54
+JOB-5278,APPT-5278,2026-05-28T16:50,Roofing,yes,no,cancelled,customer cancelled pre-arrival,403.68,0.0
+JOB-5279,APPT-5279,2026-06-18T14:32,HVAC,no,no,cancelled,duplicate of existing job,3087.13,0.0
+JOB-5280,APPT-5280,2026-05-19T12:46,Roofing,yes,yes,invoiced,,572.61,572.61
+JOB-5281,APPT-5281,2026-06-25T20:22,HVAC,yes,yes,invoiced,,506.54,506.54
+JOB-5282,APPT-5282,2026-05-21T20:44,Roofing,yes,yes,invoiced,,787.25,787.25
+JOB-5283,APPT-5283,2026-05-27T08:41,Garage Door,no,no,cancelled,capacity conflict - slot unavailable,193.78,0.0
+JOB-5284,APPT-5284,2026-05-24T03:57,Electrical,yes,yes,invoiced,,140.01,140.01
+JOB-5285,APPT-5285,2026-06-29T19:02,Electrical,yes,yes,invoiced,,361.69,361.69
+JOB-5286,APPT-5286,2026-05-14T23:46,Roofing,yes,yes,invoiced,,428.18,428.18
+JOB-5287,APPT-5287,2026-06-15T03:53,Garage Door,yes,yes,invoiced,,260.53,260.53
+JOB-5288,APPT-5288,2026-06-12T01:14,Garage Door,yes,yes,invoiced,,267.2,267.2
+JOB-5289,APPT-5289,2026-06-14T10:40,Garage Door,yes,yes,invoiced,,177.64,177.64
+JOB-5290,APPT-5290,2026-06-01T05:40,Roofing,yes,yes,invoiced,,409.21,438.72
+JOB-5291,APPT-5291,2026-06-07T05:56,Plumbing,yes,yes,invoiced,,560.57,691.21
+JOB-5292,APPT-5292,2026-05-27T14:27,HVAC,yes,yes,invoiced,,381.66,381.66
+JOB-5293,APPT-5293,2026-06-23T03:35,Roofing,yes,yes,invoiced,,625.14,625.14
+JOB-5294,APPT-5294,2026-06-23T17:11,Electrical,yes,yes,invoiced,,146.26,109.44
+JOB-5295,APPT-5295,2026-05-29T23:47,HVAC,no,no,cancelled,duplicate of existing job,758.83,0.0
+JOB-5296,APPT-5296,2026-06-11T04:11,HVAC,yes,yes,invoiced,,658.27,658.27
+JOB-5297,APPT-5297,2026-05-08T13:19,Garage Door,yes,yes,invoiced,,122.3,122.3
+JOB-5298,APPT-5298,2026-05-27T03:19,HVAC,yes,yes,completed_unbilled,invoice not raised,180.43,0.0
+JOB-5299,APPT-5299,2026-05-30T05:29,Electrical,yes,yes,invoiced,,143.88,143.88
+JOB-5300,APPT-5300,2026-05-25T01:01,Plumbing,yes,yes,invoiced,,1440.24,1331.43
+JOB-5301,APPT-5301,2026-06-01T23:49,HVAC,yes,yes,invoiced,,844.47,844.47
+JOB-5302,APPT-5302,2026-06-22T22:11,Electrical,yes,yes,invoiced,,819.58,819.58
+JOB-5303,APPT-5303,2026-05-25T08:00,HVAC,yes,yes,invoiced,,181.77,181.77
+JOB-5304,APPT-5304,2026-06-27T02:04,Electrical,yes,yes,invoiced,,221.79,221.79
+JOB-5305,APPT-5305,2026-06-25T01:55,Electrical,yes,yes,invoiced,,140.49,140.49
+JOB-5306,APPT-5306,2026-06-30T13:51,Electrical,yes,yes,invoiced,,306.57,407.52
+JOB-5307,APPT-5307,2026-05-17T05:05,HVAC,yes,yes,invoiced,,198.11,198.11
+JOB-5308,APPT-5308,2026-05-07T23:10,HVAC,yes,yes,invoiced,,181.96,181.96
+JOB-5309,APPT-5309,2026-07-01T07:44,Plumbing,yes,yes,invoiced,,180.68,180.68
+JOB-5310,APPT-5310,2026-05-12T09:13,Electrical,yes,yes,invoiced,,662.96,662.96
+JOB-5311,APPT-5311,2026-06-19T08:56,Plumbing,yes,no,cancelled,duplicate of existing job,1743.6,0.0
+JOB-5312,APPT-5312,2026-06-25T02:57,Roofing,yes,yes,invoiced,,2762.91,2762.91
+JOB-5313,APPT-5313,2026-06-21T15:06,Electrical,yes,no,no_show,customer no-show,299.47,0.0
+JOB-5314,APPT-5314,2026-05-29T06:23,Plumbing,yes,no,no_show,customer no-show,264.71,0.0
+JOB-5315,APPT-5315,2026-05-23T04:56,Roofing,yes,yes,invoiced,,5397.63,6486.72
+JOB-5316,APPT-5316,2026-06-04T01:23,Plumbing,yes,yes,invoiced,,295.66,295.66
+JOB-5317,APPT-5317,2026-05-16T00:52,Plumbing,yes,yes,invoiced,,163.35,163.35
+JOB-5318,APPT-5318,2026-05-16T21:21,Plumbing,yes,yes,invoiced,,486.4,486.4
+JOB-5319,APPT-5319,2026-05-18T08:22,HVAC,yes,yes,invoiced,,583.67,583.67
+JOB-5320,APPT-5320,2026-06-27T17:14,Garage Door,yes,yes,invoiced,,168.8,224.13
+JOB-5321,APPT-5321,2026-05-29T09:35,Electrical,yes,yes,invoiced,,758.59,758.59
+JOB-5322,APPT-5322,2026-05-12T18:03,HVAC,yes,yes,invoiced,,702.23,702.23
+JOB-5323,APPT-5323,2026-05-21T07:44,HVAC,no,no,cancelled,duplicate of existing job,2740.36,0.0
+JOB-5324,APPT-5324,2026-05-24T12:16,Roofing,yes,yes,invoiced,,2337.86,2337.86
+JOB-5325,APPT-5325,2026-05-19T06:50,Plumbing,yes,yes,invoiced,,484.99,484.99
+JOB-5326,APPT-5326,2026-05-13T13:40,Garage Door,yes,no,cancelled,capacity conflict - slot unavailable,128.05,0.0
+JOB-5327,APPT-5327,2026-05-14T21:52,Roofing,yes,no,cancelled,wrong trade assigned,575.74,0.0
+JOB-5328,APPT-5328,2026-06-05T23:00,HVAC,yes,no,cancelled,capacity conflict - slot unavailable,183.14,0.0
+JOB-5329,APPT-5329,2026-05-19T04:57,Electrical,yes,yes,invoiced,,378.42,378.42
+JOB-5330,APPT-5330,2026-05-11T21:34,Roofing,yes,no,cancelled,outside service area,404.28,0.0
+JOB-5331,APPT-5331,2026-05-27T13:00,Plumbing,yes,yes,invoiced,,1352.25,1503.09
+JOB-5332,APPT-5332,2026-06-29T12:02,Plumbing,yes,no,no_show,customer no-show,1301.56,0.0
+JOB-5333,APPT-5333,2026-05-18T12:35,Plumbing,yes,yes,completed_unbilled,invoice not raised,170.31,0.0
+JOB-5334,APPT-5334,2026-05-04T20:38,HVAC,yes,yes,invoiced,,195.44,195.44
+JOB-5335,APPT-5335,2026-06-07T11:23,Garage Door,no,no,cancelled,customer cancelled pre-arrival,213.72,0.0
+JOB-5336,APPT-5336,2026-06-24T06:55,Roofing,no,no,cancelled,customer cancelled pre-arrival,653.84,0.0
+JOB-5337,APPT-5337,2026-07-02T06:54,Plumbing,yes,yes,invoiced,,1523.57,1694.24
+JOB-5338,APPT-5338,2026-06-02T05:18,Roofing,yes,yes,invoiced,,438.81,438.81
+JOB-5339,APPT-5339,2026-07-02T02:05,Plumbing,yes,yes,invoiced,,150.01,150.01
+JOB-5340,APPT-5340,2026-05-12T04:01,Roofing,yes,yes,invoiced,,1201.14,1201.14
+JOB-5341,APPT-5341,2026-06-03T08:46,Garage Door,yes,no,no_show,customer no-show,127.38,0.0
+JOB-5342,APPT-5342,2026-06-19T14:06,Garage Door,yes,yes,invoiced,,121.42,121.42
+JOB-5343,APPT-5343,2026-06-24T19:03,Roofing,yes,yes,invoiced,,459.2,459.2
+JOB-5344,APPT-5344,2026-05-14T15:01,Roofing,yes,no,cancelled,customer cancelled pre-arrival,425.7,0.0
+JOB-5345,APPT-5345,2026-06-20T18:28,Electrical,no,no,cancelled,duplicate of existing job,168.7,0.0
+JOB-5346,APPT-5346,2026-06-27T07:46,Roofing,yes,yes,invoiced,,400.86,383.99
+JOB-5347,APPT-5347,2026-06-27T20:54,HVAC,yes,yes,invoiced,,871.35,798.1
+JOB-5348,APPT-5348,2026-05-25T22:51,Electrical,yes,yes,invoiced,,1465.86,1679.69
+JOB-5349,APPT-5349,2026-05-03T11:45,Electrical,no,no,cancelled,wrong trade assigned,143.21,0.0
+JOB-5350,APPT-5350,2026-05-06T23:55,Roofing,yes,yes,invoiced,,424.17,424.17
+JOB-5351,APPT-5351,2026-05-22T05:04,Garage Door,yes,no,cancelled,customer cancelled pre-arrival,120.0,0.0
+JOB-5352,APPT-5352,2026-06-03T05:51,Roofing,yes,yes,completed_unbilled,invoice not raised,3523.3,0.0
+JOB-5353,APPT-5353,2026-05-09T23:49,Roofing,yes,yes,invoiced,,859.84,859.84
+JOB-5354,APPT-5354,2026-05-29T10:38,Garage Door,yes,yes,invoiced,,179.0,179.0
+JOB-5355,APPT-5355,2026-06-12T13:41,HVAC,yes,no,cancelled,duplicate of existing job,182.92,0.0
+JOB-5356,APPT-5356,2026-05-22T10:56,Roofing,yes,yes,invoiced,,7547.76,7547.76
+JOB-5357,APPT-5357,2026-06-04T03:43,Electrical,yes,no,cancelled,duplicate of existing job,446.52,0.0
+JOB-5358,APPT-5358,2026-05-20T05:53,Garage Door,yes,yes,completed_unbilled,invoice not raised,121.17,0.0
+JOB-5359,APPT-5359,2026-06-05T22:41,Electrical,no,no,cancelled,capacity conflict - slot unavailable,2097.4,0.0
+JOB-5360,APPT-5360,2026-06-24T01:05,Electrical,yes,yes,completed_unbilled,invoice not raised,141.2,0.0
+JOB-5361,APPT-5361,2026-06-12T12:10,Roofing,yes,yes,invoiced,,400.2,400.2
+JOB-5362,APPT-5362,2026-05-09T02:37,Roofing,yes,yes,invoiced,,407.92,349.13
+JOB-5363,APPT-5363,2026-05-21T02:27,Garage Door,no,no,cancelled,customer cancelled pre-arrival,1341.71,0.0
+JOB-5364,APPT-5364,2026-05-11T17:58,Electrical,yes,yes,invoiced,,162.01,212.27
+JOB-5365,APPT-5365,2026-05-26T02:46,HVAC,yes,yes,invoiced,,254.04,254.04
+JOB-5366,APPT-5366,2026-06-30T13:48,HVAC,no,no,cancelled,capacity conflict - slot unavailable,180.62,0.0
+JOB-5367,APPT-5367,2026-05-19T16:02,Plumbing,yes,yes,invoiced,,590.09,603.56
+JOB-5368,APPT-5368,2026-05-11T18:57,Electrical,no,no,cancelled,wrong trade assigned,1441.82,0.0
+JOB-5369,APPT-5369,2026-05-17T13:02,HVAC,yes,yes,invoiced,,399.75,399.75
+JOB-5370,APPT-5370,2026-06-13T03:08,HVAC,yes,yes,invoiced,,210.8,210.8
+JOB-5371,APPT-5371,2026-06-04T08:31,Plumbing,yes,no,cancelled,wrong trade assigned,509.08,0.0
+JOB-5372,APPT-5372,2026-05-30T15:24,Plumbing,no,no,cancelled,duplicate of existing job,193.32,0.0
+JOB-5373,APPT-5373,2026-06-25T11:08,Electrical,yes,yes,invoiced,,166.74,211.25
+JOB-5374,APPT-5374,2026-05-09T21:38,Electrical,yes,yes,invoiced,,252.73,252.73
+JOB-5375,APPT-5375,2026-05-12T18:39,Electrical,yes,yes,invoiced,,327.59,327.59
+JOB-5376,APPT-5376,2026-05-10T09:26,Garage Door,yes,yes,completed_unbilled,invoice not raised,120.02,0.0
+JOB-5377,APPT-5377,2026-06-07T06:31,Plumbing,yes,no,cancelled,outside service area,150.86,0.0
+JOB-5378,APPT-5378,2026-06-11T16:02,Plumbing,no,no,cancelled,outside service area,289.17,0.0
+JOB-5379,APPT-5379,2026-05-10T00:11,Electrical,yes,yes,invoiced,,297.24,297.24
+JOB-5380,APPT-5380,2026-05-08T02:49,Garage Door,yes,yes,invoiced,,163.09,190.1
+JOB-5381,APPT-5381,2026-05-30T23:52,Electrical,yes,yes,invoiced,,750.02,554.81
+JOB-5382,APPT-5382,2026-07-01T22:24,Plumbing,yes,yes,invoiced,,770.69,770.69
+JOB-5383,APPT-5383,2026-06-24T23:44,Roofing,yes,yes,invoiced,,475.63,475.63
+JOB-5384,APPT-5384,2026-05-09T23:48,Plumbing,yes,yes,completed_unbilled,invoice not raised,167.53,0.0
+JOB-5385,APPT-5385,2026-06-21T06:05,Garage Door,yes,yes,invoiced,,135.45,110.01
+JOB-5386,APPT-5386,2026-05-05T11:50,Electrical,no,no,cancelled,customer cancelled pre-arrival,228.13,0.0
+JOB-5387,APPT-5387,2026-06-03T06:27,Electrical,yes,yes,invoiced,,273.65,273.65
+JOB-5388,APPT-5388,2026-06-23T04:53,Electrical,yes,yes,invoiced,,280.32,280.32
+JOB-5389,APPT-5389,2026-05-12T08:12,HVAC,yes,yes,invoiced,,902.45,977.17
+JOB-5390,APPT-5390,2026-05-11T09:49,Garage Door,yes,yes,invoiced,,477.37,477.37
+JOB-5391,APPT-5391,2026-06-01T06:21,Garage Door,yes,no,cancelled,capacity conflict - slot unavailable,869.18,0.0
+JOB-5392,APPT-5392,2026-06-02T00:37,Garage Door,no,no,cancelled,capacity conflict - slot unavailable,174.19,0.0
+JOB-5393,APPT-5393,2026-06-25T06:50,Plumbing,yes,yes,invoiced,,152.36,152.36
+JOB-5394,APPT-5394,2026-06-07T08:36,Roofing,no,no,cancelled,capacity conflict - slot unavailable,552.07,0.0
+JOB-5395,APPT-5395,2026-06-14T16:42,Roofing,yes,yes,invoiced,,847.2,847.2
+JOB-5396,APPT-5396,2026-06-18T05:00,Electrical,yes,yes,invoiced,,140.12,140.12
+JOB-5397,APPT-5397,2026-05-06T04:14,HVAC,yes,yes,invoiced,,523.78,523.78
+JOB-5398,APPT-5398,2026-06-11T20:19,Garage Door,yes,no,cancelled,customer cancelled pre-arrival,162.3,0.0
+JOB-5399,APPT-5399,2026-06-01T22:23,Roofing,no,no,cancelled,customer cancelled pre-arrival,1357.48,0.0
+JOB-5400,APPT-5400,2026-06-01T16:01,Plumbing,yes,yes,invoiced,,246.55,298.11
+JOB-5401,APPT-5401,2026-06-23T06:01,Garage Door,yes,yes,invoiced,,120.28,122.84
+JOB-5402,APPT-5402,2026-05-23T05:11,Roofing,yes,yes,invoiced,,402.36,402.36
+JOB-5403,APPT-5403,2026-06-07T14:38,HVAC,yes,yes,invoiced,,1017.56,1017.56
+JOB-5404,APPT-5404,2026-06-14T19:29,HVAC,no,no,cancelled,customer cancelled pre-arrival,180.16,0.0
+JOB-5405,APPT-5405,2026-05-26T18:53,HVAC,yes,yes,invoiced,,1344.51,1344.51
+JOB-5406,APPT-5406,2026-06-21T06:57,HVAC,yes,yes,invoiced,,793.57,793.57
+JOB-5407,APPT-5407,2026-05-24T09:11,Roofing,yes,yes,invoiced,,1447.76,1447.76
+JOB-5408,APPT-5408,2026-06-17T06:26,Garage Door,yes,yes,invoiced,,960.0,960.0
+JOB-5409,APPT-5409,2026-05-07T06:10,HVAC,yes,no,cancelled,wrong trade assigned,701.34,0.0
+JOB-5410,APPT-5410,2026-06-28T16:19,Electrical,yes,yes,invoiced,,150.96,174.58
+JOB-5411,APPT-5411,2026-06-24T12:18,Electrical,yes,yes,invoiced,,170.17,170.17
+JOB-5412,APPT-5412,2026-06-14T04:01,Electrical,no,no,cancelled,customer cancelled pre-arrival,151.71,0.0
+JOB-5413,APPT-5413,2026-06-29T08:10,Garage Door,yes,yes,invoiced,,460.34,490.23
+JOB-5414,APPT-5414,2026-05-17T22:32,Roofing,yes,yes,invoiced,,400.66,400.66
+JOB-5415,APPT-5415,2026-05-06T04:47,HVAC,no,no,cancelled,wrong trade assigned,813.83,0.0
+JOB-5416,APPT-5416,2026-06-16T03:15,Plumbing,yes,yes,invoiced,,199.34,192.25
+JOB-5417,APPT-5417,2026-06-01T05:15,Roofing,no,no,cancelled,wrong trade assigned,750.74,0.0
+JOB-5418,APPT-5418,2026-05-28T20:31,Roofing,yes,yes,invoiced,,481.37,481.37
+JOB-5419,APPT-5419,2026-05-19T01:02,HVAC,yes,yes,invoiced,,180.05,180.05
+JOB-5420,APPT-5420,2026-06-21T02:00,Plumbing,yes,yes,invoiced,,150.15,150.15
+JOB-5421,APPT-5421,2026-06-26T21:12,Garage Door,yes,no,no_show,customer no-show,395.69,0.0
+JOB-5422,APPT-5422,2026-06-14T02:19,Roofing,yes,yes,invoiced,,7216.86,9025.13
+JOB-5423,APPT-5423,2026-05-24T22:09,Garage Door,yes,no,cancelled,capacity conflict - slot unavailable,125.73,0.0
+JOB-5424,APPT-5424,2026-05-31T22:36,Plumbing,yes,yes,invoiced,,384.9,384.9
+JOB-5425,APPT-5425,2026-06-01T13:27,Roofing,yes,yes,invoiced,,814.36,814.36
+JOB-5426,APPT-5426,2026-06-25T16:59,Roofing,yes,yes,invoiced,,402.59,402.59
+JOB-5427,APPT-5427,2026-05-11T06:26,HVAC,yes,no,cancelled,wrong trade assigned,181.72,0.0
+JOB-5428,APPT-5428,2026-06-14T14:24,Electrical,yes,yes,invoiced,,185.2,185.2
+JOB-5429,APPT-5429,2026-05-16T08:04,Garage Door,yes,yes,invoiced,,120.01,115.27
+JOB-5430,APPT-5430,2026-05-06T05:51,Garage Door,yes,no,cancelled,duplicate of existing job,338.76,0.0
+JOB-5431,APPT-5431,2026-05-07T10:32,Roofing,yes,yes,invoiced,,835.9,835.9
+JOB-5432,APPT-5432,2026-06-25T15:52,HVAC,yes,yes,invoiced,,181.26,194.86
+JOB-5433,APPT-5433,2026-06-09T11:28,Garage Door,yes,yes,invoiced,,288.01,336.7
+JOB-5434,APPT-5434,2026-05-13T03:20,Plumbing,yes,yes,invoiced,,154.57,154.57
+JOB-5435,APPT-5435,2026-05-09T08:00,Garage Door,yes,yes,invoiced,,120.0,142.05
+JOB-5436,APPT-5436,2026-05-19T21:38,Roofing,no,no,cancelled,capacity conflict - slot unavailable,3074.91,0.0
+JOB-5437,APPT-5437,2026-06-12T20:04,Roofing,yes,yes,invoiced,,788.67,788.67
+JOB-5438,APPT-5438,2026-05-23T07:09,Garage Door,no,no,cancelled,duplicate of existing job,120.45,0.0
+JOB-5439,APPT-5439,2026-06-14T15:38,Plumbing,yes,yes,invoiced,,318.32,318.32
+JOB-5440,APPT-5440,2026-05-13T01:48,HVAC,yes,yes,completed_unbilled,invoice not raised,551.03,0.0
+JOB-5441,APPT-5441,2026-05-06T15:27,Garage Door,yes,no,cancelled,customer cancelled pre-arrival,806.87,0.0
+JOB-5442,APPT-5442,2026-06-23T00:16,Roofing,yes,yes,invoiced,,2921.92,2921.92
+JOB-5443,APPT-5443,2026-06-26T21:46,Garage Door,yes,yes,invoiced,,379.13,379.13
